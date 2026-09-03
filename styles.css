@@ -1,0 +1,44 @@
+/* Siga as orientações no arquivo README para concluir o exercício */
+
+.container {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #033606;
+    color: #ffffff;           
+}
+
+.cabecalho {
+    background-color: #0c0458;
+    text-align: center;        
+}
+
+.cabecalho > p:nth-of-type(1) {
+    color: #d60e0e;
+    font-weight: bold;
+    font-size: 32px;
+}
+
+.subCabecalho > p:nth-of-type(2) {
+    color: #1cd104be;
+}
+
+.conteudo {
+    background-color: #f5f5f5; 
+    color: #212121;           
+}
+
+.desafio > p {
+    color: #E4005A;
+    font-size: 42px;
+}
+
+.desafio-plus > p:nth-of-type(3) {
+    color: #420558be;
+    font-size: 42px;
+}
+
+@media (max-width: 480px) {
+    .container {
+        background-color: #ADD8E6;
+    }
+}
